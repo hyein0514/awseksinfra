@@ -50,7 +50,7 @@ spec:
       containers:
         - name: backend
 
-          image: 624480629666.dkr.ecr.ap-southeast-2.amazonaws.com/sample-app/backend:latest
+          image: 624480629666.dkr.ecr.ap-southeast-2.amazonaws.com/sample-app/backend:df80e61f00e1fb82d482b07576586538deb308e6
 
           ports:
             - containerPort: 8080
